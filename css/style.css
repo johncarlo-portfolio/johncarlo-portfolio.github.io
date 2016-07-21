@@ -77,6 +77,7 @@ i:hover{
   background-color: #d0ecfd;
 }
 
+
 /*new navbar */
 
 
@@ -148,6 +149,27 @@ i:hover{
   display: block !important;
 }
 
+@media (max-width: 1108px) {
+  .container{
+  width: 80%;
+ }
+
+ .grad{
+  visibility: hidden;
+ }
+}
+
+@media (max-width: 900px) {
+  .container{
+  width: 80%;
+ }
+
+ .grad{
+  visibility: hidden;
+ }
+}
+
+
 @media (max-width: 767px) {
 
  .school{
@@ -163,7 +185,11 @@ i:hover{
  }
 
  .container{
-  width: 75%;
+  width: 80%;
+ }
+
+ .grad{
+  visibility: visible;
  }
 
 
